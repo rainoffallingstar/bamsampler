@@ -1,0 +1,22 @@
+# Binaries
+/bamsampler
+/*.exe
+/*.dll
+/*.so
+/*.dylib
+
+# Test artifacts
+/*.test
+/*.out
+/coverage.*
+
+# Go workspace / deps
+/vendor/
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary
+/tmp/
