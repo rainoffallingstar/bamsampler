@@ -4,14 +4,31 @@
 /*.dll
 /*.so
 /*.dylib
+/bin/
+/dist/
+/build/
 
 # Test artifacts
 /*.test
 /*.out
 /coverage.*
+*.prof
+*.pprof
 
 # Go workspace / deps
 /vendor/
+
+# Bioinformatics large artifacts
+*.bam
+*.bai
+*.csi
+*.cram
+*.crai
+*.sam
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
 
 # Editors / OS
 .DS_Store
@@ -20,3 +37,5 @@
 
 # Temporary
 /tmp/
+*.tmp
+*.swp
